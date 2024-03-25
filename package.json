@@ -1,0 +1,11 @@
+{
+  "name": "inkbound-aspects-tracker",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rm -f bookmarklet.txt && bookmarklet index.js bookmarklet.txt"
+  },
+  "devDependencies": {
+    "bookmarklet": "^3.0.0"
+  }
+}
