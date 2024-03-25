@@ -53,7 +53,7 @@
             ],
         },
         {
-            aspect: 'Clairvoyant',
+            aspect: 'Clairvoyent',
             bindings: [
                 'Telekinesis',
                 'Psychic Pulse',
