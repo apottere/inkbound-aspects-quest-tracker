@@ -37,7 +37,7 @@
 
 (() => {
     const defaultExpanded = false;
-    const localstorageKey = 'inkbound-aspects-tracker';
+    const localstorageKey = 'inkbound-aspects-quest-tracker';
     /** @type {State} */
     const state = JSON.parse(localStorage.getItem(localstorageKey) || '{}');
     if (!state.expanded) state.expanded = {};
@@ -245,7 +245,7 @@
         'EpicUnique': 'rgb(146,61,188)',
     }
 
-    const id = 'inkbound-aspects-tracker';
+    const id = 'inkbound-aspects-quest-tracker';
     const root = document.createElement('div');
     root.id = id;
     root.style.position = 'fixed';
