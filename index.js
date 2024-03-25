@@ -188,7 +188,7 @@
 
         console.log('section:', section.name, sectionBody, tableNodes);
 
-        for (let i = 0; i < 3; i++) {
+        for (let i = 0; i < tableNodes.length / 2; i++) {
             const bindingName = bindingNames[i];
             const augmentNodes = tableNodes[i * 2].querySelectorAll('div.bb_table_tr');
             const ascensionNodes = tableNodes[(i * 2) + 1].querySelectorAll('div.bb_table_tr');
